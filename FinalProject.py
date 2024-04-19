@@ -1,10 +1,3 @@
-# input: users  provide their availability for the five weekdays
-# output: how many users are available in each time slot.
-#   The program should also color each time slot
-#        Green: if more than half of the users are available and
-#        Red: if less than half are available.
-
-#define function
 def read_availability_file(file_path):
    availability_data = {}
    with open(file_path, 'r') as file:
